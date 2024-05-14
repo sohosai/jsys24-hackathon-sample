@@ -25,7 +25,7 @@ yarn
 7. 以下のコマンドを実行して、ローカルで起動する。
 
 ```shell
-yyarn dev
+yarn dev
 ```
 
 ## branch のルール
