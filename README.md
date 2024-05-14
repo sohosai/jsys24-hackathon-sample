@@ -1,5 +1,7 @@
 # jsys24-hackathon-sample
 
+## パッケージ管理マネージャー
+
 ## セットアップ
 
 1. `src/pages/index.astro`に班の名前と呼んでほしい名前を適切な場所に書く。

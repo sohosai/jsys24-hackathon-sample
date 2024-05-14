@@ -5,6 +5,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: "https://sohosai.github.io",
-  base: "/jsys24-hackathon-sample",
+  base: import.meta.env.PROD ? "/jsys24-hackathon-sample" : "/",
   integrations: [react()],
 });
