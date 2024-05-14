@@ -1,5 +1,15 @@
 # jsys24-hackathon-sample
 
+## セットアップ
+
+1. `src/pages/index.astro`に班の名前と呼んでほしい名前を適切な場所に書く。
+
+2. `src/pages/`に1.で書いた呼んでほしい名前のディレクトリを書く。
+
+3. サンプルで用意されているディレクトリ(member1~member5)にある`index.astro`を作成したディレクトリにコピーする
+
+4. サンプルで用意されているディレクトリ(member1~member5)にある`hinagata.astro`を参考に作成したディレクトリ内でマークダウンファイルを作成する。
+
 ## branch のルール
 
 #### PRs をするブランチ (Default branch)
