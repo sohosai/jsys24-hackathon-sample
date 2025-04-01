@@ -2,6 +2,21 @@
 
 ## セットアップ
 
+0. `astro.config.mjs`の`base`のレポジトリ名をフォーク先のレポジトリ名に変更する
+
+```js
+import { defineConfig } from "astro/config";
+
+import react from "@astrojs/react";
+
+// https://astro.build/config
+export default defineConfig({
+  site: "https://sohosai.github.io",
+  base: "jsys24-hackathon", //<- ここのレポジトリ名を変更する
+  integrations: [react()],
+});
+```
+
 1. 以下のコマンドで`yarn`をインストールする。
 
 ```shell
